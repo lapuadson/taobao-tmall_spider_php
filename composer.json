@@ -1,0 +1,17 @@
+{
+    "name": "lapuad/taobao-tmall_spider",
+    "description": "It's a php spider for crawling goods data from taobao.com and tmall.com. A python3 version spider will also be available later.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lapuad",
+            "email": "lapuad@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3@dev",
+        "electrolinux/phpquery": "dev-master"
+    }
+}
