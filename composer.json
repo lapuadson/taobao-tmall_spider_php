@@ -10,10 +10,9 @@
             "email": "lapuad@outlook.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": "^6.3@dev",
-        "electrolinux/phpquery": "dev-master"
+        "guzzlehttp/guzzle": "^6.3",
+        "electrolinux/phpquery": "^0.9.6"
     },
     "autoload": {
         "psr-4": {
