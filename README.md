@@ -4,7 +4,7 @@
 
 安装：
 
-composer require 
+composer require lapuad/taobao-tmall_spider
 
 使用示例：
 
