@@ -7,7 +7,7 @@
  * Time: 下午2:26
  */
 
-namespace TaobaoSpider;
+namespace Spider\Taobao;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Cookie\CookieJar;

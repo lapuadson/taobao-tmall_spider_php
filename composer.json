@@ -1,6 +1,7 @@
 {
     "name": "lapuad/taobao-tmall_spider",
-    "description": "It's a php spider for crawling goods data from taobao.com and tmall.com. A python3 version spider will also be available later.",
+    "description": "淘宝、天猫商品详情数据抓取PHP版本，目前支持PC端淘宝网和天猫网站商品详情页数据抓取，后续会考虑添加天猫超市、天猫国际以及Python版本的支持。It's a php spider for crawling goods data from taobao.com and tmall.com. A python3 version spider will also be available later.",
+    "keywords": ["淘宝爬虫", "天猫爬虫", "taobao", "tmall", "淘宝商品数据抓取", "天猫商品数据抓取", "taobao_spider", "tmall_spider"],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,5 +14,10 @@
     "require": {
         "guzzlehttp/guzzle": "^6.3@dev",
         "electrolinux/phpquery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spider\\Taobao\\": "src/Spider/Taobao"
+        }
     }
 }
